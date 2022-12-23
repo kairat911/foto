@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header a{
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 22px; 
+   text-align: center;
+   color: #828282;
+}
+header a:hover{
+    color: #070707;
+    font-weight: bold;
+}
+header{
+    height: 10vh;
+    border-bottom: 1px solid #828282;
+}
+main div p + p{
+    transform: rotate(-90deg);
+}
+main{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+@media (max-width: 768px){
+     header{
+         height: fit-content;
+     }
+     main div p + p{
+        transform: rotate(-0deg);
+    }
+}
+.about h1{
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+.about p{
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.about {
+    background: #F6F6F6;
+    padding: 110px 0px;
+}
+.skills .row .col-3 p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.portfolio{
+    background: #F6F6F6;
+    padding: 90px;
+}
+.portfolio .container .row a{
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+footer .container h2{
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+footer .container .row{
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+footer .container a{
+    text-decoration: none;
+}
+footer .container a button{
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    border: none;
+    background: #070707;
+    border-radius: 40px;
+    padding: 12px 25px;
+}
+.footer--text p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+@media (max-width: 576px){
+           row{
+        align-items: center;
+    }
+}
